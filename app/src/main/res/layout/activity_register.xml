@@ -5,7 +5,9 @@
     android:background="@color/bg_register"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="10dp" >
+    android:padding="10dp" >]
+
+
 
     <LinearLayout
         android:layout_width="fill_parent"
@@ -13,7 +15,9 @@
         android:layout_gravity="center"
         android:orientation="vertical"
         android:paddingLeft="20dp"
-        android:paddingRight="20dp" >
+        android:paddingRight="20dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarAlwaysDrawHorizontalTrack="true">
 
         <EditText
             android:id="@+id/name"
@@ -54,16 +58,68 @@
             android:textColor="@color/input_register"
             android:textColorHint="@color/input_register_hint" />
 
+        <EditText
+            android:id="@+id/motorista"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_motorista"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
+        <EditText
+            android:id="@+id/motorista1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_motorista"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
+        <EditText
+            android:id="@+id/motorista2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_motorista"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
+        <EditText
+            android:id="@+id/motorista3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/input_register_bg"
+            android:hint="@string/hint_motorista"
+            android:inputType="text"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint" />
+
         <!-- Login Button -->
 
         <Button
             android:id="@+id/btnRegister"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dip"
+            android:layout_marginTop="20dp"
             android:background="#ea4c88"
             android:text="@string/btn_register"
-            android:textColor="@color/white" />
+            android:textColor="@color/black" />
 
         <!-- Link to Login Screen -->
 
@@ -75,7 +131,7 @@
             android:background="@null"
             android:text="@string/btn_link_to_login"
             android:textAllCaps="false"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15dp" />
     </LinearLayout>
 
